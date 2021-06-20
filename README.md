@@ -4,13 +4,13 @@ Rest API in NodeJs, Express, MongoDB, JWT (JSON Web Tokens) Authorization, Mongo
 
 ## Features
 
-- Express
-- Mango DB Atlas
-- Mongoose
-- JWT (JSON Web Tokens) Authorization using JWT package
-- Logger using Morgon Package
-- File Upload
-- Hash Password
+- [Express](https://expressjs.com/) - to create rest api 
+- [Mongo DB](https://www.mongodb.com/cloud/atlas) - to create mongo database 
+- [Mongoose](https://www.npmjs.com/package/mongoose) - to interect with mongo data
+- [JWT - JSON Web Tokens](https://www.npmjs.com/package/jsonwebtoken) - to use authorization
+- [Morgan](https://www.npmjs.com/package/morgan)] - to use logger
+- [Bcrypt](https://www.npmjs.com/package/bcrypt)] - to story password in hash format in database
+- [Multer](https://www.npmjs.com/package/multer) - to use for file upload
 
 ## Prerequisites
 
@@ -34,28 +34,22 @@ npm init
 [This command is use to initialize the application with a package.json file]
 ```
 
-## To Run Node API
-
-```node
-npm install -g nodemon 
-[This command is use to run node application and it is monitoring the changes 
-and once you save your changes then it will automatically reflect to the browser]
-```
-
 ## Install Dependencies
 
 ```node
-npm install express
-[This command is use to create api server]
+$ npm install express
 
-npm install dotenv
-[This command is use to install dotenv library to read environment file]
+$ npm install dotenv
 
-npm install morgan
-[This command is use to install morgan library which is use for log the data. for help [Morgan](https://www.npmjs.com/package/morgan)]
+$ npm install morgan
 
-npm install bcrypt
-[This command is use to story password in hash format in database. for help [Bcrypt](https://www.npmjs.com/package/bcrypt)]
+$ npm install mongoose
+
+$ npm install bcrypt
+
+$ npm install jsonwebtoken
+
+$ npm install multer
 ```
 
 ## Setting up the web server
@@ -80,11 +74,11 @@ app.listen(3000, () => {
 });
 ```
 
+
 ## To Run Node API
 
 ```node
-$ node server.js 
-
-// or if you have installed nodemon package then run below command
-$ nodemon app.js
+npm install -g nodemon 
+[This command is use to run node application and it is monitoring the changes 
+and once you save your changes then it will automatically reflect to the browser]
 ```
