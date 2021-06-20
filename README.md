@@ -1,6 +1,16 @@
 # Node Rest API
 
-Rest API in NodeJs, Express, MongoDB, JWT (JSON Web Tokens) Authorization
+Rest API in NodeJs, Express, MongoDB, JWT (JSON Web Tokens) Authorization, Mongoose, Logger, File Upload 
+
+## Features
+
+- Express
+- Mango DB Atlas
+- Mongoose
+- JWT (JSON Web Tokens) Authorization using JWT package
+- Logger using Morgon Package
+- File Upload
+- Hash Password
 
 ## Prerequisites
 
