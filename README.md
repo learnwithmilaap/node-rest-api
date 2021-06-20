@@ -22,11 +22,19 @@ Node.js Extension Pack
 ```node
 npm init 
 [This command is use to initialize the application with a package.json file]
+```
 
+## To Run Node API
+
+```node
 npm install -g nodemon 
 [This command is use to run node application and it is monitoring the changes 
 and once you save your changes then it will automatically reflect to the browser]
+```
 
+## Install Dependencies
+
+```node
 npm install express
 [This command is use to create api server]
 
