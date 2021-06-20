@@ -66,3 +66,12 @@ app.listen(3000, () => {
     console.log("Server is listening on port http://localhost:3000");
 });
 ```
+
+## To Run Node API
+
+```node
+$ node server.js 
+
+// or if you have installed nodemon package then run below command
+$ nodemon app.js
+```
