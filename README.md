@@ -21,7 +21,7 @@ Node.js Extension Pack
 
 ```node
 npm init 
-[This command is use to create new application]
+[This command is use to initialize the application with a package.json file]
 
 npm install -g nodemon 
 [This command is use to run node application and it is monitoring the changes 
