@@ -12,7 +12,7 @@ Use [Mongo DB Atlas](https://www.mongodb.com/cloud/atlas) to create free Mongo D
 
 Install [Postman](https://www.postman.com/downloads/) to test your Node Rest API.
 
-Install Extension in VS Code
+## Install Extension in VS Code
 
 Node.js Extension Pack
 
