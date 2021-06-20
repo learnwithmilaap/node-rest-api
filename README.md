@@ -44,3 +44,23 @@ npm install dotenv
 npm install morgan
 [This command is use to install morgan library which is use for log the data]
 ```
+
+## Setting up the web server
+const express = require('express');
+
+// create express app
+const app = express();
+
+//Middleware
+app.use(express.json()); // earlier it was using app.use(bodyParser.json()); which is deprecated
+
+// define a simple route
+app.get('/', (req, res) => {
+    res.json({"message": "Welcome to My First Node API"});
+});
+
+// listen for requests
+app.listen(3000, () => {
+    console.log("Server is listening on port http://localhost:3000");
+});
+```
