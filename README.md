@@ -74,6 +74,22 @@ app.listen(3000, () => {
 });
 ```
 
+## To Connect MongoDB
+```node
+const mongoose = require("mongoose");
+
+mongoose.connect(process.env.DB_CONNECTION_STRING, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
+  .then(() => {
+    console.log(`Database connected successfully`);
+  })
+  .catch((err) => {
+    console.log(err);
+  });
+```
+
 
 ## To Run Node API
 
