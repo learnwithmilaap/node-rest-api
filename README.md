@@ -42,7 +42,7 @@ npm install dotenv
 [This command is use to install dotenv library to read environment file]
 
 npm install morgan
-[This command is use to install morgan library which is use for log the data]
+[This command is use to install morgan library which is use for log the data. for help [Morgan](https://www.npmjs.com/package/morgan)]
 ```
 
 ## Setting up the web server
