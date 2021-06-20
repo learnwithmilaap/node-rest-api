@@ -53,6 +53,9 @@ npm install dotenv
 
 npm install morgan
 [This command is use to install morgan library which is use for log the data. for help [Morgan](https://www.npmjs.com/package/morgan)]
+
+npm install bcrypt
+[This command is use to story password in hash format in database. for help [Bcrypt](https://www.npmjs.com/package/bcrypt)]
 ```
 
 ## Setting up the web server
