@@ -7,7 +7,7 @@ Rest API in NodeJs, Express, MongoDB, JWT (JSON Web Tokens) Authorization, Mongo
 - [Express](https://expressjs.com/) - to create rest api 
 - [Mongo DB](https://www.mongodb.com/cloud/atlas) - to create mongo database 
 - [Mongoose](https://www.npmjs.com/package/mongoose) - to interect with mongo data
-- [JWT - JSON Web Tokens](https://www.npmjs.com/package/jsonwebtoken) - to use authorization
+- [JWT](https://www.npmjs.com/package/jsonwebtoken) - to use authorization using JSON Web Tokens
 - [Morgan](https://www.npmjs.com/package/morgan) - to use logger
 - [Bcrypt](https://www.npmjs.com/package/bcrypt) - to story password in hash format in database
 - [Multer](https://www.npmjs.com/package/multer) - to use for file upload
