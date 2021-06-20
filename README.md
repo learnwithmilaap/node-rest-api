@@ -46,15 +46,17 @@ npm install morgan
 ```
 
 ## Setting up the web server
+
+```node
 const express = require('express');
 
 // create express app
 const app = express();
 
-//Middleware
+// middleware
 app.use(express.json()); // earlier it was using app.use(bodyParser.json()); which is deprecated
 
-// define a simple route
+// define a startup route
 app.get('/', (req, res) => {
     res.json({"message": "Welcome to My First Node API"});
 });
