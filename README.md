@@ -25,7 +25,7 @@ npm init
 
 npm install -g nodemon 
 [This command is use to run node application and it is monitoring the changes 
-and automatically reflect to the browser after save your changes]
+and once you save your changes then it will automatically reflect to the browser]
 
 npm install express
 [This command is use to create api server]
